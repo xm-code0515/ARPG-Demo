@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7dd1b3dd4ad284e94dc0b71409a45e, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: Game.Enemies.Unity::Game.Enemies.Unity.EnemyDefinition
+  enemyId: skeleton
+  displayName: "\u9AB7\u9AC5"
+  prefab: {fileID: 3013880439903718048, guid: c16ffbf00a89aa84486762f3ed61330a, type: 3}
+  attributes: {fileID: 11400000, guid: c4670a105f8e72945a5faa2cc170ec4a, type: 2}
+  actions: {fileID: 11400000, guid: 5de93dfe5dd29534da5e28faa0327280, type: 2}
+  weapon: {fileID: 11400000, guid: 91a8cbc33872f0840854d548d0e6ac32, type: 2}
+  ai: {fileID: 11400000, guid: 25e1c85d5b72f094db75291b0f513b47, type: 2}
+  loot: {fileID: 11400000, guid: a5d3c97846ff13a44a698a46aafdab2f, type: 2}
+  team: 2
+  corpseLifetime: 20

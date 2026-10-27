@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4bd9ab2bd662d418f3dbe34794c3cb, type: 3}
+  m_Name: AncientCrystal
+  m_EditorClassIdentifier: Game.Items::Game.Items.ItemDefinition
+  itemId: ancient_crystal
+  displayName: "\u53E4\u8001\u7ED3\u6676"
+  description: "\u9AB7\u9AC5\u6389\u843D\u7684\u6750\u6599\u3002"
+  category: 0
+  icon: {fileID: 0}
+  worldAppearance: {fileID: 4782674696383081907, guid: 80fbb182df6e1c24dae0f658ae250a4e, type: 3}
+  stackLimit: 20

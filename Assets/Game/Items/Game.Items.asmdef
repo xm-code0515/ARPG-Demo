@@ -1,0 +1,4 @@
+{
+    "name": "Game.Items",
+    "references": ["Game.Combat.Unity", "Game.Attributes", "Game.Attributes.Unity"]
+}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4bd9ab2bd662d418f3dbe34794c3cb, type: 3}
+  m_Name: Sword1
+  m_EditorClassIdentifier: Game.Items::Game.Items.ItemDefinition
+  itemId: sword1
+  displayName: "\u94F6\u8272\u5355\u624B\u5251"
+  description: "\u8F7B\u4FBF\u7684\u5355\u624B\u5251\u3002\u88C5\u5907\u5230\u4E3B\u624B\u540E\uFF0C\u70B9\u51FB\u6216\u6309\u4F4F\u5DE6\u952E\u8FDB\u884C\u4E09\u6BB5\u6325\u780D\uFF0C\u5E76\u968F\u52A8\u4F5C\u8E0F\u6B65\u524D\u8FDB\u3002"
+  category: 1
+  icon: {fileID: 21300000, guid: 20503087acf0ed848ae9166b1a99dc8e, type: 3}
+  worldAppearance: {fileID: 12889012683503436, guid: 23236090a9c7e8f4bad18a3f2a6913f9, type: 3}
+  stackLimit: 1
+  displayProperties: []
+  weapon: {fileID: 11400000, guid: 4551d2c6987f5404ca3b710c1927ad08, type: 2}

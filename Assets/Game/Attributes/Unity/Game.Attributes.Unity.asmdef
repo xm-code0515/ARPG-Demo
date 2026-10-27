@@ -1,0 +1,4 @@
+{
+    "name": "Game.Attributes.Unity",
+    "references": ["Game.Attributes"]
+}

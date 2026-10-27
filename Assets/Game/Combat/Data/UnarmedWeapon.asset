@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402b15d8a48648d4989260a59e3fa964, type: 3}
+  m_Name: UnarmedWeapon
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.WeaponDefinition
+  weaponId: unarmed
+  appearance: {fileID: 0}
+  attacks:
+  - animation: {fileID: -7321412271681594418, guid: a713271e90b4955479164944f741847a, type: 3}
+    duration: 0.86666673
+    hitTime: 0.23
+    staminaCost: 6
+    baseDamage: 5
+    attackPowerScale: 0.5
+    range: 1.5
+    angle: 100
+    verticalReach: 1
+    forwardDistance: 0.25
+    movementStart: 0.06
+    movementEnd: 0.3
+    movementCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1
+  - animation: {fileID: 1705686167135224321, guid: a713271e90b4955479164944f741847a, type: 3}
+    duration: 1
+    hitTime: 0.3
+    staminaCost: 6
+    baseDamage: 5
+    attackPowerScale: 0.5
+    range: 1.5
+    angle: 100
+    verticalReach: 1
+    forwardDistance: 0.3
+    movementStart: 0.08
+    movementEnd: 0.4
+    movementCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1
+  attackPattern: {fileID: 0}
+  baseDamage: 18
+  attackPowerScale: 0.5
+  staminaCost: 8
+  range: 2.1
+  knockbackDistance: 0.35
+  knockbackDuration: 0.25
+  hitStopDuration: 0.05
+  heldPosition: {x: 0, y: 0, z: 0}
+  heldEulerAngles: {x: 0, y: 0, z: 0}
+  heldScale: {x: 1, y: 1, z: 1}

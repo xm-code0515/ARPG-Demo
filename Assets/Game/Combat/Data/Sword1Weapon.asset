@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402b15d8a48648d4989260a59e3fa964, type: 3}
+  m_Name: Sword1Weapon
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.WeaponDefinition
+  weaponId: sword1
+  appearance: {fileID: 3202718378638959057, guid: 90986086a582d2247b710a0e78915b70, type: 3}
+  attacks: []
+  attackPattern: {fileID: 11400000, guid: a6a769e4912a6b7449f322ec0fe45500, type: 2}
+  baseDamage: 18
+  attackPowerScale: 0.5
+  staminaCost: 8
+  range: 2.1
+  knockbackDistance: 1.5
+  knockbackDuration: 0.25
+  hitStopDuration: 0.05
+  heldPosition: {x: 0.041, y: 0.038, z: -0.013}
+  heldEulerAngles: {x: 0.779, y: -88.072, z: -64.029}
+  heldScale: {x: 1, y: 1, z: 1}

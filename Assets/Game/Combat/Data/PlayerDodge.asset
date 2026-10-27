@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570e1dd5f378c7242bacbe59e87dbde1, type: 3}
+  m_Name: PlayerDodge
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.DodgeDefinition
+  animation: {fileID: 7400000, guid: fec7fbdb007e3d042a109114e381ef51, type: 2}
+  duration: 0.75
+  distance: 1.5
+  staminaCost: 18
+  cooldown: 0.95
+  invulnerableStart: 0
+  invulnerableEnd: 0.45
+  perfectWindow: 0.2
+  perfectStaminaRecovery: 10

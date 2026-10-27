@@ -1,0 +1,5 @@
+{
+    "name": "Game.Enemies.Editor",
+    "includePlatforms": ["Editor"],
+    "references": ["Game.Enemies.Unity", "Game.Network", "Unity.Netcode.Runtime", "Unity.AI.Navigation"]
+}

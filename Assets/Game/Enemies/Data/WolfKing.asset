@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7dd1b3dd4ad284e94dc0b71409a45e, type: 3}
+  m_Name: WolfKing
+  m_EditorClassIdentifier: Game.Enemies.Unity::Game.Enemies.Unity.EnemyDefinition
+  enemyId: wolf_king
+  displayName: "\u72FC\u738B"
+  prefab: {fileID: 4940586528483697753, guid: 25316ff87ea7dbf42843db9b57326caf, type: 3}
+  attributes: {fileID: 11400000, guid: 60ebddb0f3e68c34198c29f569ee00f4, type: 2}
+  actions: {fileID: 11400000, guid: b2414669a26988a48a2b18418e91ea97, type: 2}
+  weapon: {fileID: 11400000, guid: f6a352367f3f93e4a908ea05851afd7a, type: 2}
+  ai: {fileID: 11400000, guid: 26be581622110e14aa48da6edf12e897, type: 2}
+  loot: {fileID: 0}
+  team: 2
+  corpseLifetime: 25

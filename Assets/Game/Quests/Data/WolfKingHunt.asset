@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e88b48c2e8a3842a32a92cc1fcd826, type: 3}
+  m_Name: WolfKingHunt
+  m_EditorClassIdentifier: Game.Quests::Game.Quests.QuestDefinition
+  questId: hunt_wolf_king
+  title: "\u51FB\u8D25\u68EE\u6797\u72FC\u738B"
+  description: "\u68EE\u6797\u6DF1\u5904\u7684\u72FC\u738B\u6B63\u5728\u5A01\u80C1\u8FD9\u7247\u9886\u5730\u3002\n\u4E0E\u961F\u53CB\u4E00\u8D77\u51FB\u8D25 1 \u53EA\u72FC\u738B\uFF0C\u518D\u56DE\u6765\u9886\u53D6\u98DF\u7269\u5956\u52B1\u3002\n\u5168\u961F\u5171\u4EAB\u4EFB\u52A1\u8FDB\u5EA6\uFF0C\u6BCF\u4EBA\u53EF\u9886\u53D6\u4E00\u6B21\u5956\u52B1\u3002"
+  targetEnemyId: wolf_king
+  targetName: "\u72FC\u738B"
+  requiredKills: 1
+  prerequisite: {fileID: 11400000, guid: d3efbc083b07b874eac9da81a00ad43d, type: 2}
+  rewards:
+  - item: {fileID: 11400000, guid: d03e06979cfab374fab835a0d4c152a0, type: 2}
+    quantity: 3
+  - item: {fileID: 11400000, guid: bda78dc1206ca254199036b39c6284ca, type: 2}
+    quantity: 3
+  - item: {fileID: 11400000, guid: 246d92ec1d9632c4493a58fa7dca0775, type: 2}
+    quantity: 3

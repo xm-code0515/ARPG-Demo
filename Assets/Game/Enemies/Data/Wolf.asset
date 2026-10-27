@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7dd1b3dd4ad284e94dc0b71409a45e, type: 3}
+  m_Name: Wolf
+  m_EditorClassIdentifier: Game.Enemies.Unity::Game.Enemies.Unity.EnemyDefinition
+  enemyId: wolf
+  displayName: "\u72FC"
+  prefab: {fileID: 5866944624995976088, guid: 507e23d152da96a4cb7a2a68459a6131, type: 3}
+  attributes: {fileID: 11400000, guid: 260fb6243ab7d7d47897926077e947cf, type: 2}
+  actions: {fileID: 11400000, guid: aac91c26f3c1cd1489251adfdc9ff251, type: 2}
+  weapon: {fileID: 11400000, guid: 823202f8b76c4e64286f2b079c341e74, type: 2}
+  ai: {fileID: 11400000, guid: 20fa1f32a3d9d6a48b0086b058e30d65, type: 2}
+  loot: {fileID: 0}
+  team: 2
+  corpseLifetime: 20

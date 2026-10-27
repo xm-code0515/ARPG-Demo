@@ -1,0 +1,5 @@
+{
+    "name": "Game.Items.Editor",
+    "includePlatforms": ["Editor"],
+    "references": ["Game.Items", "Game.Combat", "Game.Combat.Unity", "Game.Network", "Unity.Netcode.Runtime", "Game.Attributes"]
+}

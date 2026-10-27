@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f68b638850580498b0bb5cdcf25cef, type: 3}
+  m_Name: WolfBitePattern
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.MeleeAttackPattern
+  displayName: "\u72FC\u7684\u5DE6\u53F3\u5543\u54AC"
+  animationType: 2
+  animatorController: {fileID: 9100000, guid: 18940ebec321ea14aaf6261996ef0f64, type: 2}
+  comboResetDelay: 1
+  attackPlaybackSpeed: 1.5
+  attacks:
+  - animation: {fileID: 7400000, guid: e1045b7d48468134fbd08aba28f82f12, type: 2}
+    duration: 1.75
+    hitTime: 0.7
+    staminaCost: 0
+    baseDamage: 0
+    attackPowerScale: 0
+    range: 0
+    angle: 105
+    verticalReach: 1.4
+    forwardDistance: 0
+    movementStart: 0
+    movementEnd: 0
+    movementCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1
+  - animation: {fileID: 7400000, guid: b6af4acd9a9369548b6d3ae95f8c152a, type: 2}
+    duration: 1.75
+    hitTime: 0.7
+    staminaCost: 0
+    baseDamage: 0
+    attackPowerScale: 0
+    range: 0
+    angle: 105
+    verticalReach: 1.4
+    forwardDistance: 0
+    movementStart: 0
+    movementEnd: 0
+    movementCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1

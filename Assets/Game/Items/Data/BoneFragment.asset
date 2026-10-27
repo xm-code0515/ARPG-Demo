@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4bd9ab2bd662d418f3dbe34794c3cb, type: 3}
+  m_Name: BoneFragment
+  m_EditorClassIdentifier: Game.Items::Game.Items.ItemDefinition
+  itemId: bone_fragment
+  displayName: "\u9AB7\u9AC5\u9AA8\u7247"
+  description: "\u9AB7\u9AC5\u6389\u843D\u7684\u6750\u6599\u3002"
+  category: 0
+  icon: {fileID: 0}
+  worldAppearance: {fileID: 7059085213729468307, guid: 998ae0daa17c8a842a31483687248446, type: 3}
+  stackLimit: 20

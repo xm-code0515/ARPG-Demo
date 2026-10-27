@@ -1,0 +1,5 @@
+{
+    "name": "Game.Combat.Editor",
+    "references": ["Game.Combat.Unity"],
+    "includePlatforms": ["Editor"]
+}

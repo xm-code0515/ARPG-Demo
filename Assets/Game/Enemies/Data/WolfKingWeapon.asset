@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402b15d8a48648d4989260a59e3fa964, type: 3}
+  m_Name: WolfKingWeapon
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.WeaponDefinition
+  weaponId: wolf_king_attacks
+  appearance: {fileID: 0}
+  attacks: []
+  attackPattern: {fileID: 11400000, guid: 72f27f5566e0b444db7dbf14dc767f9f, type: 2}
+  baseDamage: 16
+  attackPowerScale: 0.5
+  staminaCost: 0
+  range: 3.2
+  knockbackDistance: 0.5
+  knockbackDuration: 0.25
+  hitStopDuration: 0.05
+  heldPosition: {x: 0, y: 0, z: 0}
+  heldEulerAngles: {x: 0, y: 0, z: 0}
+  heldScale: {x: 1, y: 1, z: 1}

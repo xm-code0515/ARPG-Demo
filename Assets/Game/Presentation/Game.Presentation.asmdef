@@ -1,0 +1,25 @@
+{
+    "name": "Game.Presentation",
+    "rootNamespace": "",
+    "references": [
+        "Game.Attributes",
+        "Game.Attributes.Unity",
+        "Game.Combat",
+        "Game.Combat.Unity",
+        "Game.Items",
+        "Game.Quests",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:d70d96a637ff3714ebe0b47b8b908263"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

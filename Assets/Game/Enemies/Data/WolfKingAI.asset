@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa7705d2ba9fa5458aa170fd5a16a06, type: 3}
+  m_Name: WolfKingAI
+  m_EditorClassIdentifier: Game.Enemies.Unity::Game.Enemies.Unity.EnemyAIProfile
+  detectionRange: 20
+  fieldOfView: 360
+  loseRange: 30
+  homeLeash: 36
+  lostSightGrace: 6
+  perceptionInterval: 0.25
+  repathInterval: 0.3
+  unreachableGrace: 3
+  attackDistance: 3.1
+  attackHeightTolerance: 1.2
+  attackCooldown: 0.7
+  attacksPerGroup: 1
+  intraGroupCooldown: 0.2
+  hitReactionDuration: 1.2333333
+  patrolRadius: 5
+  patrolSpeedMultiplier: 0.25
+  patrolWaitMinimum: 1
+  patrolWaitMaximum: 3
+  sightHeight: 1.6
+  attackFacingAngle: 12
+  turnSpeed: 240
+  homeArrivalDistance: 0.4
+  sightMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

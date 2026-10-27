@@ -1,0 +1,24 @@
+{
+    "name": "Game.Network",
+    "references": [
+        "Unity.Netcode.Runtime",
+        "Unity.Networking.Transport",
+        "Game.Attributes",
+        "Game.Attributes.Unity",
+        "Game.Character",
+        "Game.Character.Actions",
+        "Game.Combat",
+        "Game.Combat.Unity",
+        "Game.Input",
+        "Unity.InputSystem",
+        "Game.Presentation",
+        "Game.Enemies.Unity",
+        "Game.Items",
+        "Game.Quests",
+        "Game.Boss",
+        "Unity.Collections",
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.Services.Multiplayer"
+    ]
+}

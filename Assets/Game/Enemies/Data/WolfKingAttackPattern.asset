@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f68b638850580498b0bb5cdcf25cef, type: 3}
+  m_Name: WolfKingAttackPattern
+  m_EditorClassIdentifier: Game.Combat.Unity::Game.Combat.Unity.MeleeAttackPattern
+  displayName: "\u72FC\u738B\u653B\u51FB\u8F6E\u6B21"
+  animationType: 3
+  animatorController: {fileID: 9100000, guid: 0d147d99c148ed14d8789d64e9e00a39, type: 2}
+  comboResetDelay: 1000
+  attackPlaybackSpeed: 1
+  attacks:
+  - suppressDamage: 0
+    animation: {fileID: 7400000, guid: 9daa81e2c99a3664fbc26134e78d6126, type: 2}
+    duration: 1.7333335
+    hitTime: 0.65
+    staminaCost: 0
+    baseDamage: 0
+    attackPowerScale: 0
+    range: 0
+    angle: 120
+    verticalReach: 2.2
+    forwardDistance: 0
+    movementStart: 0
+    movementEnd: 0
+    movementCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1
+  - suppressDamage: 0
+    animation: {fileID: 7400000, guid: 1bb41ab07d1f03545b6d900d5a0e216b, type: 2}
+    duration: 2.8666668
+    hitTime: 1.05
+    staminaCost: 0
+    baseDamage: 0
+    attackPowerScale: 0
+    range: 0
+    angle: 160
+    verticalReach: 2.2
+    forwardDistance: 0
+    movementStart: 0
+    movementEnd: 0
+    movementCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    rootMotionSamples: []
+    damageMultiplier: 1
+    staminaMultiplier: 1
+  - suppressDamage: 1
+    animation: {fileID: 7400000, guid: cdcada60d4f81124abb050ea9caee516, type: 2}
+    duration: 3.3333335
+    hitTime: 1.5
+    staminaCost: 0
+    baseDamage: 0
+    attackPowerScale: 0
+    range: 0
+    angle: 120
+    verticalReach: 2.2
+    forwardDistance: 0
+    movementStart: 0
+    movementEnd: 0
+    movementCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    rootMotionSamples: []
+    damageMultiplier: 0
+    staminaMultiplier: 1
